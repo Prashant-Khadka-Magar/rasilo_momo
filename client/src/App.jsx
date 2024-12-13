@@ -8,6 +8,9 @@ export default function App() {
       <div>
         Coming Soon..
       </div>
+      <div>
+        what's up everybody
+      </div>
     </div>
   )
 }
