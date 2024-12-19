@@ -15,3 +15,39 @@ https://themewagon.github.io/feane/
 
 
 git push -u origin dev
+
+
+
+
+
+-----------------------------------------
+
+for the dynamic menu
+
+const mongoose = require("mongoose");
+
+const categorySchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  description: { type: String, required: false },
+});
+
+const Category = mongoose.model("Category", categorySchema);
+module.exports = Category;
+
+
+
+
+
+const mongoose = require("mongoose");
+
+const menuItemSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  description: { type: String, required: true },
+  price: { type: Number, required: true },
+  image: { type: String, required: true },
+  rating: { type: Number, required: true },
+  category: { type: mongoose.Schema.Types.ObjectId, ref: "Category", required: true },
+});
+
+const MenuItem = mongoose.model("MenuItem", menuItemSchema);
+module.exports = MenuItem;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/Home.css";
 import { FaHome } from "react-icons/fa";
 import { ImSpoonKnife } from "react-icons/im";
@@ -7,8 +7,11 @@ import { RiCustomerService2Line } from "react-icons/ri";
 import { FaStar } from "react-icons/fa";
 import { CiStar } from "react-icons/ci";
 import { FaStarHalfAlt } from "react-icons/fa";
+import menuData from '../../data/menu.js'
 
 export default function Home() {
+  let [activeCategory, setActiveCategory] = useState("chickenMomo");
+
   return (
     <div className=" bg-cover bg-center">
       <div
@@ -68,23 +71,41 @@ export default function Home() {
 
         <h2 className="text-center text-4xl mt-4">CHECK OUT YUMMY MENU</h2>
 
-        <div className="mt-8">
-          <div className="">
-            <div className="flex gap-x-5 justify-center text-xl">
-              <button className="border-b-4 pb-1 border-baseColor ">
+        <div className="mt-8 max-w-screen">
+          <div className="overflow-x-auto px-2">
+            <div className="flex gap-x-5 md:justify-center justify-start text-xl whitespace-nowrap">
+              {Object.keys(menuData).map((category) => {
+                return (
+                  <button
+                    key={category}
+                    className={`border-b-4 pb-1 ${
+                      activeCategory === category
+                        ? "border-baseColor"
+                        : "border-gray"
+                    }`}
+                    onClick={() => setActiveCategory(category)}
+                  >
+                    {category}
+                  </button>
+                );
+              })}
+
+              {/* <button className="border-b-4 pb-1 border-baseColor ">
                 Chicken Momo
               </button>
               <button className="border-b-4 border-gray pb-1">Veg Momo</button>
               <button className="border-b-4 border-gray pb-1">Sides</button>
-              <button className="border-b-4 border-gray pb-1">Pop</button>
+              <button className="border-b-4 border-gray pb-1">Noodles</button>
+              <button className="border-b-4 border-gray pb-1">Laphing</button>
+              <button className="border-b-4 border-gray pb-1">Pop</button> */}
             </div>
           </div>
 
           <div className="dynamicMenus m-4 ">
-            <h1 className="text-center my-8">Chicken Momo</h1>
+            <h1 className="text-center my-8">{activeCategory}'s Menu</h1>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
-              {/* Card 1 */}
+              
               <div className="chickenmomo border border-black p-4 bg-white">
                 <div className="relative">
                   <img
@@ -100,7 +121,6 @@ export default function Home() {
                   <div className="flex justify-between items-center mb-4">
                     <h1 className="">
                       <div className="text-xl font-bold">Steam Momo</div>
-                      {/* <div className="text-sm">Comes with Achar</div> */}
                       <div className="flex items-center text-yellow-500">
                         <FaStar /> <FaStar /> <FaStar /> <FaStar />
                         <FaStarHalfAlt />
@@ -142,9 +162,7 @@ export default function Home() {
                   <div className="flex justify-between items-center mb-4">
                     <h1 className="">
                       <div className="text-xl font-bold">Jhol Momo</div>
-                      {/* <div className="text-sm">
-                        Comes with Jhol and hot sauce
-                      </div> */}
+
                       <div className="flex items-center text-yellow-500">
                         <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
                       </div>
@@ -185,7 +203,6 @@ export default function Home() {
                   <div className="flex justify-between items-center mb-4">
                     <h1 className="">
                       <div className="text-xl font-bold">Fry Momo</div>
-                      {/* <div className="text-sm">Comes with Achar</div> */}
                       <div className="flex items-center text-yellow-500">
                         <FaStar /> <FaStar /> <FaStar /> <FaStar />{" "}
                         <FaStarHalfAlt />
@@ -212,30 +229,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-            {/* <div className="chickenmomo">
-              <div>
-                <img
-                  src="https://redhousespice.com/wp-content/uploads/2021/02/uncooked-dumplings-on-a-tray-scaled.jpeg"
-                  alt=""
-                  className="h-64"
-                />
-                <div className="">
-                  <div className="flex">
-                    <h1 className="text-xl"> Chicken Momo</h1>
-                    <button  className="bg-baseColor text-white px-2">View Details</button>
-                  </div>
-                  <div className="flex">
-                    <div className="flex gap-x-2">
-                      <button className="bg-baseColor text-white px-2">+</button>
-                      <span>1</span>
-                      <button  className="bg-baseColor text-white px-2">-</button>
-                    </div>
-                    <button  className="bg-baseColor text-white px-2">Add To Cart</button>
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
