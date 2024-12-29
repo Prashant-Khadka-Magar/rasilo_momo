@@ -14,7 +14,7 @@ function Navbar() {
         </div>
         <div className=" flex justify-between items-center gap-x-4">
           <NavLink
-            to="/"
+            to="/" 
             className={({ isActive }) =>
               ` ${isActive ? "text-baseColor" : "text-black"} `
             }

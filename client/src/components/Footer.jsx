@@ -8,7 +8,7 @@ import { FaTiktok } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="bg-[#1F1F24] text-white mt-8 py-8 px-4">
+    <div className="bg-[#1F1F24] text-white pt-8 py-8 px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <div>
           <div>

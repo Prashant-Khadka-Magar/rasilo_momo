@@ -1,17 +1,5 @@
-v1
-Pages
-  |
-Home, Cart->Checkout, Contact Us, 
 
-
-https://restfood.onlywebcoding.com.ua/?i=255812&aff=entheos
-
-https://themewagon.github.io/yummy-red/
-
-https://themewagon.github.io/restoran/
-
-https://themewagon.github.io/feane/
-
+protected-routes
 
 
 git push -u origin dev

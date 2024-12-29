@@ -13,6 +13,7 @@ import Cart from "./pages/Cart.jsx";
 import UserProfile from "./pages/UserProfile.jsx";
 import SingleProduct from "./pages/SingleProduct.jsx";
 import Contact from "./pages/Contact.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
       <Route path="user/:userid" element={<UserProfile />} />
       <Route path="product/:productid" element={<SingleProduct />} />
       <Route path="contacts" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
     </Route>
   )
 );
