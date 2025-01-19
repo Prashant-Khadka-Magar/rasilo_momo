@@ -13,7 +13,7 @@ const menuData = {
       id: 2,
       name: "Jhol Momo",
       description: "Dumplings served with flavorful soup",
-      price: 12.99,
+      price: 11.99,
       image:
         "https://mrsgrg.wordpress.com/wp-content/uploads/2015/01/img_0785-0.jpg?w=1200",
       rating: 5,
@@ -22,7 +22,7 @@ const menuData = {
       id: 3,
       name: "Fry Momo",
       description: "Crispy fried dumplings with achar",
-      price: 12.99,
+      price: 11.99,
       image:
         "https://static.toiimg.com/thumb/53281477.cms?imgsize=1884587&width=800&height=800",
       rating: 4.5,
@@ -33,7 +33,7 @@ const menuData = {
       id: 1,
       name: "Steam Momo",
       description: "Steamed veggie dumplings with achar",
-      price: 8.99,
+      price: 9.99,
       image:
         "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/02/16/0/FNM_030122-Pork-Soup-Dumplings_s4x3.jpg.rend.hgtvcom.406.305.suffix/1645023412629.webp",
       rating: 4.2,
@@ -42,7 +42,7 @@ const menuData = {
       id: 2,
       name: "Jhol Momo",
       description: "Steamed veggie dumplings with achar",
-      price: 8.99,
+      price: 9.99,
       image:
         "https://i0.wp.com/www.valerieskeepers.com/wp-content/uploads/2015/01/Wonton-Soup1.jpg?ssl=1",
       rating: 4.2,
@@ -51,7 +51,7 @@ const menuData = {
       id: 3,
       name: "Fry Momo",
       description: "Steamed veggie dumplings with achar",
-      price: 8.99,
+      price: 9.99,
       image:
         "https://images.getrecipekit.com/20221124014158-pan-fried-soup-dumplings-1.png?aspect_ratio=4:3&quality=90&",
       rating: 4.2,
