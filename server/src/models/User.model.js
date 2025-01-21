@@ -63,7 +63,7 @@ const userSchema = new Schema(
     },
     address: {
       type: addressSchema,
-      required: true,
+      // required: true,
     },
     avatar: {
       type: String,
@@ -129,5 +129,20 @@ userSchema.pre("save", async function (next) {
 userSchema.methods.isPasswordCorrect = async function (enteredPassword) {
   return await bcrypt.compare(enteredPassword, this.password);
 };
+
+userSchema.methods.generateVerificationCode = async function () {
+  const otp = Math.floor(Math.random() * 90000) + 10000;
+
+  const hashedOtp = await bcrypt.hash(otp.toString(), 10);
+
+  this.emailVerificationCode = hashedOtp;
+  this.emailVerificationExpirey = Date.now() + 10 * 60 * 1000;
+
+  return otp;
+};
+
+userSchema.methods.verifyOtp= async function (enteredOtp){
+  return await bcrypt.compare(enteredOtp, this.emailVerificationCode)
+}
 
 export const User = mongoose.model("User", userSchema);

@@ -1,28 +1,17 @@
-const enhancedMenuData = [
+const menuSeedData = [
+  // Chicken Momos
   {
     name: "Steam Momo",
     description: "Soft steamed dumplings with achar",
     price: 9.99,
     category: "Chicken Momo",
     isAvailable: true,
-    imageUrl:
-      "https://redhousespice.com/wp-content/uploads/2021/02/uncooked-dumplings-on-a-tray-scaled.jpeg",
-    rating: 4.5,
-    numReviews: 2,
+    imageUrl: "https://redhousespice.com/wp-content/uploads/2021/02/uncooked-dumplings-on-a-tray-scaled.jpeg",
     reviews: [
       {
-        user: "64d2f3e1e8141b0012c43af4",
-        name: "John Doe",
-        rating: 5,
-        comment: "Absolutely delicious, the dumplings are soft and flavorful!",
-        reply: "Thank you for your kind words!",
-      },
-      {
-        user: "64d2f3e1e8141b0012c43af5",
-        name: "Jane Smith",
-        rating: 4,
-        comment: "Good taste, but the achar could be spicier.",
-        reply: "We’ll improve the achar spice level next time!",
+        customerName: "John Doe",
+        rating: 4.5,
+        comment: "Delicious and fresh!",
       },
     ],
   },
@@ -32,17 +21,12 @@ const enhancedMenuData = [
     price: 11.99,
     category: "Chicken Momo",
     isAvailable: true,
-    imageUrl:
-      "https://mrsgrg.wordpress.com/wp-content/uploads/2015/01/img_0785-0.jpg?w=1200",
-    rating: 5,
-    numReviews: 1,
+    imageUrl: "https://mrsgrg.wordpress.com/wp-content/uploads/2015/01/img_0785-0.jpg?w=1200",
     reviews: [
       {
-        user: "64d2f3e1e8141b0012c43af6",
-        name: "Alice Brown",
+        customerName: "Jane Smith",
         rating: 5,
-        comment: "The soup is rich and aromatic, perfect with dumplings!",
-        reply: "Glad you loved it!",
+        comment: "Best momo in town!",
       },
     ],
   },
@@ -51,45 +35,46 @@ const enhancedMenuData = [
     description: "Crispy fried dumplings with achar",
     price: 11.99,
     category: "Chicken Momo",
-    isAvailable: false, // Example of unavailable item
-    imageUrl:
-      "https://static.toiimg.com/thumb/53281477.cms?imgsize=1884587&width=800&height=800",
-    rating: 4.5,
-    numReviews: 3,
-    reviews: [
-      {
-        user: "64d2f3e1e8141b0012c43af7",
-        name: "Chris Green",
-        rating: 5,
-        comment: "Super crispy and flavorful, my favorite momo!",
-        reply: "We’re thrilled to hear that!",
-      },
-      {
-        user: "64d2f3e1e8141b0012c43af8",
-        name: "Bob White",
-        rating: 4,
-        comment: "Crispy, but could use more achar on the side.",
-        reply: "Thanks for the feedback, Bob!",
-      },
-      {
-        user: "64d2f3e1e8141b0012c43af9",
-        name: "Ella Blue",
-        rating: 4,
-        comment: "Tasty, but a bit oily for my liking.",
-        reply: "We’ll try to make it less oily next time.",
-      },
-    ],
+    isAvailable: true,
+    imageUrl: "https://static.toiimg.com/thumb/53281477.cms?imgsize=1884587&width=800&height=800",
+    reviews: [],
   },
+  // Veg Momos
+  {
+    name: "Veg Steam Momo",
+    description: "Steamed veggie dumplings with achar",
+    price: 9.99,
+    category: "Veg Momo",
+    isAvailable: true,
+    imageUrl: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/02/16/0/FNM_030122-Pork-Soup-Dumplings_s4x3.jpg.rend.hgtvcom.406.305.suffix/1645023412629.webp",
+    reviews: [],
+  },
+  {
+    name: "Veg Jhol Momo",
+    description: "Steamed veggie dumplings served with flavorful soup",
+    price: 9.99,
+    category: "Veg Momo",
+    isAvailable: true,
+    imageUrl: "https://i0.wp.com/www.valerieskeepers.com/wp-content/uploads/2015/01/Wonton-Soup1.jpg?ssl=1",
+    reviews: [],
+  },
+  {
+    name: "Veg Fry Momo",
+    description: "Crispy fried veggie dumplings with achar",
+    price: 9.99,
+    category: "Veg Momo",
+    isAvailable: true,
+    imageUrl: "https://images.getrecipekit.com/20221124014158-pan-fried-soup-dumplings-1.png?aspect_ratio=4:3&quality=90&",
+    reviews: [],
+  },
+  // Drinks
   {
     name: "Coke",
     description: "Just a can of Coke",
     price: 1.99,
     category: "Pop",
     isAvailable: true,
-    imageUrl:
-      "https://136324617.cdn6.editmysite.com/uploads/1/3/6/3/136324617/s868769048617568022_p132_i1_w10000.png?width=2560",
-    rating: 4.6,
-    numReviews: 1,
+    imageUrl: "https://136324617.cdn6.editmysite.com/uploads/1/3/6/3/136324617/s868769048617568022_p132_i1_w10000.png?width=2560",
     reviews: [],
   },
   {
@@ -98,12 +83,8 @@ const enhancedMenuData = [
     price: 1.99,
     category: "Pop",
     isAvailable: true,
-    imageUrl:
-      "https://giftshop.sunnybrook.ca/cdn/shop/products/IMG_20210114_111605.png?v=1610642125",
-    rating: 4.6,
-    numReviews: 2,
+    imageUrl: "https://giftshop.sunnybrook.ca/cdn/shop/products/IMG_20210114_111605.png?v=1610642125",
     reviews: [],
   },
+  // Add more categories here like sides, laphing, etc.
 ];
-
-export default enhancedMenuData;
