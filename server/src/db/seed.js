@@ -102,7 +102,7 @@ const menuSeedData = [
 
 const seedDatabase = async () => {
   try {
-    await mongoose.connect("mongodb+srv://rasilomomo:ThaxainaMalai@rasilodb.hvche.mongodb.net/", {
+    await mongoose.connect(`${process.env.MONGODB_URL}`, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
