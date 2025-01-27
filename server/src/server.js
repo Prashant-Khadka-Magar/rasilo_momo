@@ -28,9 +28,12 @@ app.use(express.urlencoded({ extended: false }));
 // Middleware to parse cookies from incoming requests
 app.use(cookieParser());
 
-// Routes
+// User Routes
 app.use("/api/v1/user", userRoutes);
+
+//Menu Routes
 app.use("/api/v1/menu", menuRoutes);
+app.use("/api/v1/menu/:categoryId", menuRoutes);
 
 //start and listen to the server
 app.listen(PORT, () => {

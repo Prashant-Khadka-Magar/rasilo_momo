@@ -1,4 +1,5 @@
 import mongoose, { Schema } from "mongoose";
+import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
 
 // Menu Schema
 const MenuSchema = new Schema(
@@ -16,7 +17,8 @@ const MenuSchema = new Schema(
       default: 0,
     },
     category: {
-      type: String,
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Category",
       required: true,
     },
     isAvailable: {
@@ -54,4 +56,5 @@ const MenuSchema = new Schema(
   }
 );
 
+MenuSchema.plugin(mongooseAggregatePaginate);
 export const Menu = mongoose.model("Menu", MenuSchema);
