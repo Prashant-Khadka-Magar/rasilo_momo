@@ -14,13 +14,23 @@ import UserProfile from "./pages/UserProfile.jsx";
 import SingleProduct from "./pages/SingleProduct.jsx";
 import Contact from "./pages/Contact.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import { Provider } from "react-redux";
+import store from "./redux/store";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import OtpVerification from "./pages/OtpVerification";
+import ForgotPassword from "./pages/ForgotPassword";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Home />} />
       <Route path="cart" element={<Cart />} />
-      <Route path="user/:userid" element={<UserProfile />} />
+      <Route path="login" element={<Login />} />
+      <Route path="register" element={<Register />} />
+      <Route path="forgot-password" element={<ForgotPassword />} />
+      <Route path="verify-otp" element={<OtpVerification />} />
+      <Route path="user" element={<UserProfile />} />
       <Route path="product/:productid" element={<SingleProduct />} />
       <Route path="contacts" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
@@ -30,6 +40,8 @@ const router = createBrowserRouter(
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </StrictMode>
 );

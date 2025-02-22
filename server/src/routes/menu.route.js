@@ -1,5 +1,6 @@
 import express from "express";
 import {
+  getAllCategories,
   getAllItems,
   getItemsByCategory,
 } from "../controllers/menu.controller.js";
@@ -7,6 +8,7 @@ import {
 const router = express.Router();
 
 router.get("/", getAllItems);
-router.get("/:categoryId", getItemsByCategory);
+router.get("/by-category", getItemsByCategory);
+router.get("/categories", getAllCategories);
 
 export default router;

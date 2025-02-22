@@ -6,12 +6,11 @@ import mongoose from "mongoose";
 const getAllItems = asyncHandler(async (req, res) => {
   const items = await Menu.find({});
 
-  res.send(items);
+  res.json(items);
 });
 
 const getItemsByCategory = asyncHandler(async (req, res) => {
-  const { categoryId } = req.params;
-  const { page = 1, limit = 10 } = req.query;
+  const { categoryId, page = 1, limit = 10 } = req.query;
 
   const category = await Category.findById(categoryId);
 
@@ -50,5 +49,13 @@ const getItemsByCategory = asyncHandler(async (req, res) => {
   });
 });
 
+const getAllCategories = asyncHandler(async (req, res) => {
+  try {
+    const categories = await Category.find({});
+    res.status(200).json(categories);
+  } catch (error) {
+    next(error);
+  }
+});
 
-export { getAllItems, getItemsByCategory };
+export { getAllItems, getItemsByCategory, getAllCategories };

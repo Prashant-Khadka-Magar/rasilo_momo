@@ -1,0 +1,70 @@
+"filename", "language", "Markdown", "JavaScript", "JavaScript JSX", "CSS", "XML", "JSON", "JSON with Comments", "HTML", "comment", "blank", "total"
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\README.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\README.md", "Markdown", 5, 0, 0, 0, 0, 0, 0, 0, 0, 4, 9
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\components.json", "JSON", 0, 0, 0, 0, 0, 21, 0, 0, 0, 0, 21
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\data\menu.js", "JavaScript", 0, 81, 0, 0, 0, 0, 0, 0, 2, 2, 85
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\eslint.config.js", "JavaScript", 0, 37, 0, 0, 0, 0, 0, 0, 0, 2, 39
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\index.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 16, 0, 1, 17
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\jsconfig.json", "JSON with Comments", 0, 0, 0, 0, 0, 0, 8, 0, 0, 2, 10
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\package-lock.json", "JSON", 0, 0, 0, 0, 0, 5905, 0, 0, 0, 1, 5906
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\package.json", "JSON", 0, 0, 0, 0, 0, 48, 0, 0, 0, 1, 49
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\postcss.config.js", "JavaScript", 0, 6, 0, 0, 0, 0, 0, 0, 0, 1, 7
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\public\vite.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\Layout.jsx", "JavaScript JSX", 0, 0, 18, 0, 0, 0, 0, 0, 0, 3, 21
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\assets\react.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ContactUsForm.jsx", "JavaScript JSX", 0, 0, 72, 0, 0, 0, 0, 0, 0, 7, 79
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\Footer.jsx", "JavaScript JSX", 0, 0, 84, 0, 0, 0, 0, 0, 0, 6, 90
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\Navbar.jsx", "JavaScript JSX", 0, 0, 65, 0, 0, 0, 0, 0, 0, 5, 70
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ScrollToTop.jsx", "JavaScript JSX", 0, 0, 10, 0, 0, 0, 0, 0, 0, 5, 15
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\hooks\use-toast.js", "JavaScript", 0, 127, 0, 0, 0, 0, 0, 0, 3, 25, 155
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ui\accordion.jsx", "JavaScript JSX", 0, 0, 34, 0, 0, 0, 0, 0, 0, 8, 42
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ui\avatar.jsx", "JavaScript JSX", 0, 0, 28, 0, 0, 0, 0, 0, 0, 6, 34
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ui\button.jsx", "JavaScript JSX", 0, 0, 43, 0, 0, 0, 0, 0, 0, 5, 48
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ui\card.jsx", "JavaScript JSX", 0, 0, 42, 0, 0, 0, 0, 0, 0, 9, 51
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ui\form.jsx", "JavaScript JSX", 0, 0, 111, 0, 0, 0, 0, 0, 0, 23, 134
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ui\input.jsx", "JavaScript JSX", 0, 0, 16, 0, 0, 0, 0, 0, 0, 4, 20
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ui\label.jsx", "JavaScript JSX", 0, 0, 13, 0, 0, 0, 0, 0, 0, 6, 19
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ui\textarea.jsx", "JavaScript JSX", 0, 0, 15, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ui\toast.jsx", "JavaScript JSX", 0, 0, 72, 0, 0, 0, 0, 0, 0, 11, 83
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\components\ui\toaster.jsx", "JavaScript JSX", 0, 0, 31, 0, 0, 0, 0, 0, 0, 4, 35
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\index.css", "CSS", 0, 0, 0, 70, 0, 0, 0, 0, 4, 26, 100
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\lib\utils.js", "JavaScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\main.jsx", "JavaScript JSX", 0, 0, 45, 0, 0, 0, 0, 0, 0, 3, 48
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\Cart.jsx", "JavaScript JSX", 0, 0, 47, 0, 0, 0, 0, 0, 0, 4, 51
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\Checkout.jsx", "JavaScript JSX", 0, 0, 12, 0, 0, 0, 0, 0, 0, 4, 16
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\Contact.jsx", "JavaScript JSX", 0, 0, 61, 0, 0, 0, 0, 0, 0, 3, 64
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\ForgotPassword.jsx", "JavaScript JSX", 0, 0, 9, 0, 0, 0, 0, 0, 0, 3, 12
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\Home.jsx", "JavaScript JSX", 0, 0, 60, 0, 0, 0, 0, 0, 0, 8, 68
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\Login.jsx", "JavaScript JSX", 0, 0, 100, 0, 0, 0, 0, 0, 0, 8, 108
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\Menu.jsx", "JavaScript JSX", 0, 0, 93, 0, 0, 0, 0, 0, 0, 11, 104
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\NotFound.jsx", "JavaScript JSX", 0, 0, 34, 0, 0, 0, 0, 0, 0, 3, 37
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\OtpVerification.jsx", "JavaScript JSX", 0, 0, 75, 0, 0, 0, 0, 0, 0, 6, 81
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\Register.jsx", "JavaScript JSX", 0, 0, 125, 0, 0, 0, 0, 0, 0, 11, 136
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\SingleProduct.jsx", "JavaScript JSX", 0, 0, 8, 0, 0, 0, 0, 0, 0, 4, 12
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\pages\UserProfile.jsx", "JavaScript JSX", 0, 0, 65, 0, 0, 0, 0, 0, 0, 9, 74
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\redux\apiSlice.js", "JavaScript", 0, 9, 0, 0, 0, 0, 0, 0, 0, 3, 12
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\redux\constants.js", "JavaScript", 0, 3, 0, 0, 0, 0, 0, 0, 1, 1, 5
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\redux\features\auth\authApi.js", "JavaScript", 0, 39, 0, 0, 0, 0, 0, 0, 0, 3, 42
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\redux\features\auth\authSlice.js", "JavaScript", 0, 21, 0, 0, 0, 0, 0, 0, 0, 5, 26
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\redux\features\product\productApi.js", "JavaScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 3, 17
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\redux\store.js", "JavaScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 3, 15
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\src\store.js", "JavaScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 3, 7
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\tailwind.config.js", "JavaScript", 0, 79, 0, 0, 0, 0, 0, 0, 1, 1, 81
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\client\vite.config.js", "JavaScript", 0, 14, 0, 0, 0, 0, 0, 0, 1, 2, 17
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\package-lock.json", "JSON", 0, 0, 0, 0, 0, 2156, 0, 0, 0, 1, 2157
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\package.json", "JSON", 0, 0, 0, 0, 0, 29, 0, 0, 0, 1, 30
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\controllers\menu.controller.js", "JavaScript", 0, 39, 0, 0, 0, 0, 0, 0, 3, 13, 55
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\controllers\user.controller.js", "JavaScript", 0, 145, 0, 0, 0, 0, 0, 0, 10, 40, 195
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\db\dummyData.js", "JavaScript", 0, 86, 0, 0, 0, 0, 0, 0, 4, 1, 91
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\db\index.js", "JavaScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 3, 15
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\db\seed.js", "JavaScript", 0, 139, 0, 0, 0, 0, 0, 0, 10, 13, 162
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\models\Menu.model.js", "JavaScript", 0, 57, 0, 0, 0, 0, 0, 0, 1, 3, 61
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\models\User.model.js", "JavaScript", 0, 133, 0, 0, 0, 0, 0, 0, 4, 12, 149
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\models\category.model.js", "JavaScript", 0, 11, 0, 0, 0, 0, 0, 0, 0, 3, 14
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\routes\menu.route.js", "JavaScript", 0, 9, 0, 0, 0, 0, 0, 0, 0, 4, 13
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\routes\user.route.js", "JavaScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 4, 17
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\server.js", "JavaScript", 0, 28, 0, 0, 0, 0, 0, 0, 6, 8, 42
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\utils\cloudinary.js", "JavaScript", 0, 34, 0, 0, 0, 0, 0, 0, 4, 8, 46
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\utils\generateToken.js", "JavaScript", 0, 13, 0, 0, 0, 0, 0, 0, 2, 5, 20
+"c:\Users\Prashant\Desktop\Rasilo_MoMo-Site\server\src\utils\sendMail.js", "JavaScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 5, 29
+"Total", "-", 5, 1194, 1388, 70, 2, 8159, 8, 16, 56, 399, 11297

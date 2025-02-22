@@ -36,6 +36,6 @@ app.use("/api/v1/menu", menuRoutes);
 app.use("/api/v1/menu/:categoryId", menuRoutes);
 
 //start and listen to the server
-app.listen(PORT, () => {
+app.listen(PORT,'0.0.0.0', () => {
   console.log(`listening on ${PORT} `);
 });
